@@ -1,0 +1,28 @@
+.card{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 80px ;
+    color: white;
+}
+img{
+    width: 90%;
+    height: 500px;
+    position: relative;
+}
+.card_info{
+position: absolute;
+padding-left: 50px;
+}
+
+.card_btn{
+    padding: 15px;
+    background-color: rgb(53, 53, 216);
+    color: white;
+    display: block;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    align-items: center;
+
+}
