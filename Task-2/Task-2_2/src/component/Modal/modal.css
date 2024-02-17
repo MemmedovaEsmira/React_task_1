@@ -1,0 +1,68 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body{
+    font-family: sans-serif;
+}
+
+.modal {
+    position: absolute;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    transform: translate(50%, 50%);
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.container {
+    width: 400px;
+    height: 200px;
+}
+
+.modal_cancel {
+    position: absolute;
+    padding: 4px;
+    top: 0px;
+    right: 0px;
+    border-radius: 10px;
+    
+}
+
+
+.container_input {
+    display: grid;
+    gap: 10px;
+}
+
+.container_input input {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.container_buttons {
+    display: flex;
+    justify-content: end;
+    padding-top:  20px;
+    gap: 10px;
+}
+
+.Save {
+    padding: 10px;
+    background-color: rgb(71, 71, 230);
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.Cancel {
+    padding: 10px;
+    background-color: rgb(232, 221, 221);
+    border: none;
+    border-radius: 8px;
+}
+

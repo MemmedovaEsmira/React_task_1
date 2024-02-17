@@ -4,11 +4,9 @@ import './App.css'
 import Counter from './components/Counter/Counter'
 
 function App() {
-  // const [count, setCount] = useState(0)
 
   return (
-    <>
-       
+    <>       
 <Counter/>
     </>
   )

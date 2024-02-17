@@ -1,8 +1,33 @@
 .App{
-    width: 400px;
-    height: 400px;
-    background-color: blue;
-    display: flex;
-justify-content: center;
-align-items: center;
+    width: 300px;
+    height: 200px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    /* display: flex; */
+    
+    /* gap: 20px; */
+}
+button{
+    width: 70px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    margin-left: 10px;
+}
+span{
+
+    width: 70px;
+    padding: 8px;
+    background-color: rgb(211, 120, 87);
+    color: white;
+    text-align: center;
+    border: none;
+    margin-left: 10px;
+    
+}
+.reset{
+    display: block;
+    margin-top: 10px;
 }
